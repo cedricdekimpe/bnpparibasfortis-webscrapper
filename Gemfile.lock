@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    colorize (0.8.1)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    ffi (1.9.23)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.11.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  colorize
+  http-cookie
+  nokogiri
+  selenium-webdriver
+
+BUNDLED WITH
+   1.16.0
