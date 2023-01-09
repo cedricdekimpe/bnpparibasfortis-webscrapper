@@ -10,9 +10,11 @@ GEM
     ffi (1.9.23)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
+    mini_portile2 (2.8.1)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    racc (1.6.2)
     rubyzip (1.2.1)
     selenium-webdriver (3.11.0)
       childprocess (~> 0.5)
@@ -28,8 +30,8 @@ DEPENDENCIES
   awesome_print
   colorize
   http-cookie
-  nokogiri
+  nokogiri (~> 1.13)
   selenium-webdriver
 
 BUNDLED WITH
-   1.16.0
+   2.3.26

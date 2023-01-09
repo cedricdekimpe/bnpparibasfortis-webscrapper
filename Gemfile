@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # core gems
 
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.13'
 gem 'selenium-webdriver'
 gem 'http-cookie'
 
